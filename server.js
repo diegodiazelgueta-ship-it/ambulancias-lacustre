@@ -255,7 +255,7 @@ function haversine(lat1, lon1, lat2, lon2) {
     console.log(`[autoAssign] Ride ${rideId} asignado a unidad ${nearest.id} (dist ${bestDist.toFixed(2)} km)`);
   }
 
-  # Endpoint for seed created omitted here to avoid syntax issues in python environment
+  // Endpoint for seed created omitted here to avoid syntax issues in python environment
   # We'll add a simple seed endpoint below using plain JS syntax
 
   app.post('/seed/crear-prueba', async (req, res) => {
